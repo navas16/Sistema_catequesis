@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Buscar Estudiante</title>
+<link href="../css/estilos.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<form action="../controladores/controlador_nivel_2.php" method="post" id="for_bus">
+<input name="accion" value="buscar" type="hidden">
+<table class="formulario1">
+
+<tr>
+<td colspan="2" class="titulo"> Buscar Estudiante: </td>
+</tr>
+
+<tr>
+<td>Cedula a Buscar:</td>
+<td><input type="text o number" name="cedula" id="cedula" placeholder="Cedula a Buscar" maxlength="8" required ></td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><button type="submit">Buscar</button></td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
