@@ -4,7 +4,7 @@ class conexion
 {
 	function conectar()
 	{
-		$conexion=mysqli_connect("localhost","root","");
+		$conexion=mysqli_connect("localhost","root","speedtouch");
 		if($conexion==false)
 		{
 			echo "Error Al Conectarse Al Servidor";
