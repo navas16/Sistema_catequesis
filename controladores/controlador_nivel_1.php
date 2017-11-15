@@ -45,7 +45,9 @@ switch($_REQUEST["accion"]){
 		$obj_est->listar($con_bd,"");
 		break;
     case 'borrar':
+
         $obj_est->borrar($con_bd,$cedula);
+
         break;
 
 }

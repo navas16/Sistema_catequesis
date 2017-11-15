@@ -113,6 +113,7 @@ class nivel_1 extends utilidades
     
     function borrar($con_bd,$cedula)
     {
+         $cedula=$_GET['cedula'];
       $sql="delete from nivel_1 where cedula=$cedula";
 	  $ok=mysqli_query($con_bd,$sql);
 	  if($ok==true)
