@@ -30,7 +30,7 @@
 			  Nacionalidad:
 			 <input type="text" name="nacionalidad" id="nacionalidad" size="11" maxlength="15" required>
 			  Cédula: 
-			 <input type="text" name="cedula" id="cedula" size="10" maxlength="8" required>
+			 <input type="number" name="cedula" id="cedula" size="10" maxlength="8" required>
 			</td>
 		</tr>
 		<tr>
