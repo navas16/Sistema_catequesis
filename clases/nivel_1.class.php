@@ -48,6 +48,7 @@ class nivel_1 extends utilidades
 
     function buscar($con_bd,$cedula)
     {
+        $cedula=$_GET['cedula'];
 		$sql="select * from nivel_1 where cedula='$cedula'";
 		$ok=mysqli_query($con_bd,$sql);
 		$resultado=mysqli_fetch_assoc($ok);
