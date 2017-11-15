@@ -26,11 +26,11 @@
 		<tr>
 			<td> Edad: </td>  
 			<td>
-			 <input type="text" name="edad" id="edad" size="3" maxlength="2" max="2" required> 
+			 <input type="text" name="edad" id="edad" size="1" maxlength="1" max="2" required> 
 			  Nacionalidad:
-			 <input type="text" name="nacionalidad" id="nacionalidad" size="11" maxlength="15" required>
+			 <input type="text" name="nacionalidad" id="nacionalidad" size="6" maxlength="15" required>
 			  Cédula: 
-			 <input type="number" name="cedula" id="cedula" size="10" maxlength="8" required>
+			 <input type="number" name="cedula" id="cedula" size="2" maxlength="8" required>
 			</td>
 		</tr>
 		<tr>
