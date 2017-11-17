@@ -85,6 +85,7 @@ class nivel_1 extends utilidades
     <td>Teléfono</td>
     <td>Editar</td>
     <td>Borrar</td>
+     <td>PDF</td>
 
     </tr>
     <?php
@@ -106,6 +107,7 @@ class nivel_1 extends utilidades
             <td>$datos[telefono_celular]</td>
             <td align='center'><a href='../controladores/controlador_nivel_1.php?accion=buscar&cedula=$datos[cedula]' ><img src=../icono/índice.png height=15px width=15px> </a></td>
             <td><a href='../controladores/controlador_nivel_1.php?accion=borrar&cedula=$datos[cedula]'><img src=../icono/basura.jpg height=15px width=15px></a></td>
+            <td><a href='../pdf/ordenspdf.php?cedula=$datos[cedula]' target='_blank'><img src=../imagenes/pdf.png height=15px width=15px></a></td>
             </tr>";	
 		}
 		
